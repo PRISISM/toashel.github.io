@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sheldon Chean - New Zealand Web Developer</title>
+
+	<!-- CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha384-C0X5qw1DlkeV0RDunhmi4cUBUkPDTvUqzElcNWm1NI2T4k8tKMZ+wRPQOhZfSJ9N" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-social.css">
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/icons/favicon.ico"/>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+			<a class="navbar-brand" href='#'><img class="logo" src="./assets/img/Personal Logo Small.png"> Sheldon Chean </a>
+			</div>
+
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#skills">My Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+
+			</ul>
+		</div>
+
+
+		</div>
+	</nav>
+	
+	<div class="container">
+		<div class="page-header" id="about-me">
+			<h1>About Me</h1>
+		</div>
+		
+		<div class="clearfix">
+            <img src="assets/img/profile.png" id="profile">
+			<p><strong>Hi!</strong> My name is Sheldon Chean and I'm an aspiring web developer based in Auckland, New Zealand. </p>
+			<p>I am currently a student at the University of Auckland, taking a Bachelor of Science in Computer Science and Information Systems. I decided to pursue this over Software Engineering as I believe the business <a href="#skills">skills</a> and different teachings provides me a unique view on software development, mainly producing software for clients. 
+			</p>
+
+			<p>
+			The everchanging world of web development was intimidating to step into at first, but discovering the new frameworks and keeping up with the bleeding edge has been exciting. Despite coming from a more fundamental education in software development, I am always willing to learn the new ideas and techniques that lie in web development. 
+			</p>
+			<strong> What are my interests outside of programming? </strong>
+			<P>In my free time I am an avid competitor in Super Smash Bros Melee. Since joining the New Zealand scene I have made deep connections with people from all walks of life, experienced what goes into hosting large events, and greatly improved my problem solving skills. I also enjoy consuming all sorts of media, specifically literature and animation. Outside of these, I have a keen interest in fashion, graphic design, writing and learning Japanese. </P>
+			<strong> For more about me, check out these links:</strong>
+		</div>
+		<br>
+
+		<div class="row">
+			<div class="col-md-4 col-xs-12">
+				<button type="button" class="btn btn-default">
+					<i class="fa fa-github" aria-hidden="true">  GitHub</i>
+				</button>	
+				<button type="button" class="btn btn-info">
+					<i class="fa fa-github" aria-hidden="true">  Twitter</i>
+				</button>
+			</div>
+		</div>
+		<div class="page-header" id="projects">
+			<h1>My Projects</h1>
+		</div>
+		<p class="lead">This is some of the work I have completed in my own time or throughout my studies. </p>
+
+		<div class="panel panel-default">
+
+			<div class="panel-heading">Web Development</div>
+			<div class="panel-body">
+				<p>Click on the panels to expand them and see more! Click on the images to view a running version of the project.</p>
+
+				<div class="row">
+					<div class="col-sm-3">
+						<a href="#" class="thumbnail" data-toggle="modal" data-target="#gamestack">
+							<img src="./assets/img/gamestack.png" class="img-align">
+							<div class="caption text-center">
+								<h5>gamestack</h5>
+
+							</div>
+						</a>
+					</div>
+
+					<div class="modal fade" tabindex="-1" role="dialog" id="gamestack">
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>gamestack</h3>
+								</div>
+								<div class="modal-body">
+									<a target="_blank" href="https://gamestack.herokuapp.com">
+										<img src="./assets/img/gamestack.png" class="modal-img img-responsive">
+									</a>
+									<br>
+									<p>
+										<strong>gamestack</strong> is a website where users can register accounts and list the video games they own in their collection. Users are able to add and remove games from their 'stack', and also view the 'stacks' of other users. It features safe and persistent sessions, responsive design, and descriptive error handling.
+									</p>
+
+									<p>
+										This was my first approach at <strong>Node.js, Express.js and Mongoose</strong>. I learned a lot of important lessons when developing this, especially interacting with external APIs and the downsides of not using a front-end framework. 
+									</p>
+								</div>
+								<div class="modal-footer">
+									<a href="https://github.com/toashel/gamestack"><i class="fa fa-github">  </i>  Check out the code and extended documentation here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<a href="#" class="thumbnail" data-toggle="modal" data-target="#mytodo">
+							<img src="./assets/img/todo.png" class="img-align">
+							<div class="caption text-center">
+								<h5>MyTodoList</h5>
+							</div>
+						</a>
+					</div>
+
+					<div class="modal fade" tabindex="-1" role="dialog" id="mytodo">
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>MyTodoList</h3>
+								</div>
+								<div class="modal-body">
+									<a target="_blank" href="https://toashel-todo.herokuapp.com">
+										<img src="./assets/img/todo.png" class="modal-img img-responsive">
+									</a>
+									<br>
+									<p>
+										<strong>MyTodoList</strong> is a minimal Single-page web app built on the MEAN stack, which allows users to log-in and register to interact with their personal to-do list. 
+									</p>
+
+									<p>
+										I started this project as an introduction to <strong>Angular</strong> and how to integrate it with the rest of the MEAN stack, which I had been learning previously. It also features Passport authentication using JSON Web Tokens. 
+									</p>
+								</div>
+								<div class="modal-footer">
+									<a href="https://github.com/toashel/MyTodoList"><i class="fa fa-github">  </i>  Check out the code and extended documentation here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<a href="#" class="thumbnail" data-toggle="modal" data-target="#twimages">
+							<img src="./assets/img/twimages.jpg" class="img-align">
+							<div class="caption text-center">
+								<h5>Twimages</h5>
+							</div>
+						</a>
+					</div>
+
+					<div class="modal fade" tabindex="-1" role="dialog" id="twimages">
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Twimages</h3>
+								</div>
+								<div class="modal-body">
+									<a target="_blank" href="https://twimages.herokuapp.com">
+										<img src="./assets/img/twimages.jpg" class="modal-img img-responsive">
+									</a>
+									<br>
+									<p>
+										<strong>Twimages</strong> was my first real shot at web development, using Ruby on Rails to create a slideshow interface to view Twitter images. It was one of my first introductions to Bootstrap and using external libraries (twitter, owlcarousel) to improve functionality.
+									</p>
+								</div>
+								<div class="modal-footer">
+									<a href="https://github.com/toashel/twimages"><i class="fa fa-github">  </i>  Check out the code and extended documentation here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<a href="#" class="thumbnail" data-toggle="modal" data-target="#etch">
+							<img src="./assets/img/etch.png" class="img-align">
+							<div class="caption text-center">
+								<h5>Etch-a-Sketch</h5>
+							</div>
+						</a>
+					</div>
+
+					<div class="modal fade" tabindex="-1" role="dialog" id="etch">
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Etch-a-Sketch</h3>
+								</div>
+								<div class="modal-body">
+									<a target="_blank" href="http://htmlpreview.github.io/?https://github.com/toashel/etch-a-sketch/blob/master/index.html">
+										<img src="./assets/img/etch.png" class="modal-img img-responsive">
+									</a>
+									<br>
+									<p>
+										This was an exercise for <strong>The Odin Project</strong> that involved creating an Etch-a-Sketch clone in pure Javascript. Allows users to specify a grid width and sketch in different styles.
+									</p>
+								</div>
+								<div class="modal-footer">
+									<a href="https://github.com/toashel/etch-a-sketch"><i class="fa fa-github">  </i>  Check out the code and extended documentation here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+
+			<div class="panel-heading">Other Projects</div>
+			<div class="panel-body">
+				<p>Click on the panels to expand them and see more!</p>
+
+				<div class="row">
+
+					<div class="col-sm-3">
+						<a href="#" class="thumbnail" data-toggle="modal" data-target="#pong">
+							<img src="./assets/img/pong.png" class="img-align">
+							<div class="caption text-center">
+								<h5>Pong</h5>
+							</div>
+						</a>
+					</div>
+
+					<div class="modal fade" tabindex="-1" role="dialog" id="pong">
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Pong</h3>
+								</div>
+								<div class="modal-body">
+										<img src="./assets/img/pong.png" class="modal-img img-responsive">
+									<br>
+									<p>
+										This was a simple game development attempt using <strong>Java with no external libraries.</strong> Users can play against the computer to 10 points, with the computer using a basic coordinate tracking approach as AI.
+									</p>
+								</div>
+								<div class="modal-footer">
+									<a href="https://github.com/toashel/pong"><i class="fa fa-github">  </i>  Check out the code here.</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Modal Ends -->
+
+
+					<div class="col-sm-3">
+						<a href="#" class="thumbnail" data-toggle="modal" data-target="#flappy">
+							<img src="./assets/img/flap.png" class="img-align">
+							<div class="caption text-center">
+								<h5>Flappy Bird minus</h5>
+							</div>
+						</a>
+					</div>
+
+					<div class="modal fade" tabindex="-1" role="dialog" id="flappy">
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Flappy Bird minus</h3>
+								</div>
+								<div class="modal-body">
+									<a href="https://gfycat.com/AdmirablePrestigiousBird" target="_blank">
+										<img src="./assets/img/flap.png" class="modal-img img-responsive center-block">
+									</a>
+									<br>
+									<p>
+										This is a recreation of the mobile game Flappy Bird using the <strong>LibGDX framework</strong> in Java, which compiles to Android, Desktop and HTML. This was my first attempt at learning LibGDX.
+
+										Click on the image to see the game in action!
+									</p>
+								</div>
+								<div class="modal-footer">
+									<a href="https://github.com/toashel/FlappyBird"><i class="fa fa-github">  </i>  Check out the code here.</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Modal Ends -->
+				</div>
+			</div>
+			</div>
+
+
+		<div class="page-header" id="skills">
+			<h1>My Skills</h1>
+		</div>
+		<p class="lead">These are the skills I have acquired throughout my personal studies and my courses in University.  </p>
+
+		<div class="col-sm-3">
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-info">
+					<h4>Front End</h4>
+				</li>
+				<li class="list-group-item">
+					HTML 5
+				</li>
+				<li class="list-group-item">
+					CSS3
+				</li>
+				<li class="list-group-item">
+					JavaScript
+				</li>
+				<li class="list-group-item">
+					JQuery
+				</li>
+				<li class="list-group-item">
+					Twitter Bootstrap
+				</li>	
+				<li class="list-group-item">
+					AngularJS
+				</li>		
+				<li class="list-group-item">
+					Pug/EJS
+				</li>
+			</ul>
+		</div>
+
+		<div class="col-sm-3">
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-info">
+					<h4>Back End</h4>
+				</li>
+				<li class="list-group-item">
+					Node
+				</li>
+				<li class="list-group-item">
+					Express
+				</li>
+				<li class="list-group-item">
+					MySQL
+				</li>
+				<li class="list-group-item">
+					MongoDB
+				</li>
+				<li class="list-group-item">
+					Rails (Beginner)
+				</li>
+			</ul>
+		</div>
+
+		<div class="col-sm-3">
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-info">
+					<h4>Other Software/Technical</h4>
+				</li>
+				<li class="list-group-item">
+					Java
+				</li>
+				<li class="list-group-item">
+					Python
+				</li>
+				<li class="list-group-item">
+					C#
+				</li>
+				<li class="list-group-item">
+					Linux
+				</li>
+				<li class="list-group-item">
+					Build Automation (Gulp)
+				</li>
+				<li class="list-group-item">
+					Version Control (git)
+				</li>
+				<li class="list-group-item">
+					Sublime Text
+				</li>
+			</ul>
+		</div>
+
+		<div class="col-sm-3">
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-info">
+					<h4>Development Skills</h4>
+				</li>
+				<li class="list-group-item">
+					Object-Oriented Development
+				</li>
+				<li class="list-group-item">
+					Agile Methodology
+				</li>
+				<li class="list-group-item">
+					Gestalt's Principles / Nielsen's Heuristics
+				</li>
+				<li class="list-group-item">
+					Concurrent Programming
+				</li>
+				<li class="list-group-item">
+					Data Mining
+				</li>
+				<li class="list-group-item">
+					Business Intelligence
+				</li>
+				<li class="list-group-item">
+					Paper Prototyping/Wireframing
+				</li>
+				<li class="list-group-item">
+					Use Case Diagrams and ERDs
+				</li>
+
+			</ul>			
+		</div>	
+
+		<div class="page-header" id="contact">
+			<h1>Contact</h1>
+		</div>
+		<p class="lead">Email me at <a href="mailto:shelchean@gmail.com">this address</a> about any enquiries!</p>
+
+		<!-- Container ends -->
+		</div>
+
+
+	</div>
+
+
+	<!-- JS -->
+	<script
+	src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./assets/js/jquery.matchHeight.js"></script>
+	
+	<script>
+		$(function() {
+    		$('.img-align').matchHeight();
+		});
+
+	</script>
+</body>
+</html>
