@@ -82,9 +82,49 @@
 				<p>Click on the panels to expand them and see more! Click on the images to view a running version of the project.</p>
 
 				<div class="row">
+
+					<div class="col-sm-3">
+						<a href="#" class="thumbnail" data-toggle="modal" data-target="#kisetsu">
+							<img src="./assets/img/kisetsu-small.jpg" class="img-align">
+							<div class="caption text-center">
+								<h5>Kisetsu</h5>
+
+							</div>
+						</a>
+					</div>
+
+					<div class="modal fade" tabindex="-1" role="dialog" id="kisetsu">
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Kisetsu (Still in Development)</h3>
+								</div>
+								<div class="modal-body">
+									<a target="_blank" href="https://kisetsu.herokuapp.com">
+										<img src="./assets/img/kisetsu.jpg" class="modal-img img-responsive">
+									</a>
+									<br>
+									<p>
+										<strong>Kisetsu</strong> is a web app that allows users to follow the current anime season and vote after each episode airs on how much they enjoyed it. I created this as I found users in the community would commonly debate over what is most popular during the airing season, so this would be an interesting and easy way to show what is trending.
+									</p>
+
+									<p>
+										This was my second project using the MEAN stack, this time following a <strong>rapid appliation development </strong>philosophy. I took inspiration from Simon Holmes' book, <em>'Getting MEAN'</em>, and followed best practices as much as possible. It uses a wrapper API to interact with a third-party API and the main database where ratings are stored.
+
+										This is still in development and I am looking at adding many new features, including more build automation and Socket.io integration for viewing of live votes.
+									</p>
+								</div>
+								<div class="modal-footer">
+									<a href="https://github.com/toashel/Kisetsu"><i class="fa fa-github">  </i>  Check out the code and extended documentation here</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
 					<div class="col-sm-3">
 						<a href="#" class="thumbnail" data-toggle="modal" data-target="#gamestack">
-							<img src="./assets/img/gamestack.png" class="img-align">
+							<img src="./assets/img/gamestack-small.png" class="img-align">
 							<div class="caption text-center">
 								<h5>gamestack</h5>
 
@@ -214,9 +254,13 @@
 							</div>
 						</div>
 					</div>
+
+
 				</div>
 			</div>
 		</div>
+
+
 
 		<div class="panel panel-default">
 
